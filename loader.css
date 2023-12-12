@@ -1,0 +1,20 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    border: 20px solid black;
+    border-top: 20px solid cornflowerblue;
+    animation: spinAnimation 2s ease-in 0s  infinite normal ;
+    justify-content:center;
+    position:absolute;
+    top: 200px;
+    left:200px;
+}
+@keyframes spinAnimation{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
